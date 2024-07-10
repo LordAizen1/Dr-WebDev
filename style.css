@@ -277,12 +277,14 @@ footer {
 .technology {
     margin: 10px;
     text-align: center;
+    /* transition: scale(1.05); */
 }
 
 .language img,
 .technology img {
     display: block;
     margin: 0 auto 10px;
+    transition: transform 0.3s ease; /* Add transition effect */
 }
 
 .language p,
@@ -290,6 +292,13 @@ footer {
     font-size: 20px;
     color: #A9BCD0;
 }
+
+/* Add hover effect */
+.language:hover img,
+.technology:hover img {
+    transform: scale(1.15); /* Scale up on hover */
+}
+
 
 .fade-in-from-below {
     opacity: 0;
