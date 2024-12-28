@@ -295,6 +295,80 @@ footer {
     transform: scale(1.15);
 }
 
+/* Achievements Section */
+.achievements {
+    text-align: center;
+    margin: 20px auto;
+    background-color: #2B2B2B;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.achievements h2 {
+    color: #A9BCD0;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.achievements p {
+    color: #A9BCD0;
+    font-size: 22px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.achievements-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.achievement {
+    display: flex;
+    align-items: center; /* Align image and text horizontally */
+    background-color: #1A1A1A;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.achievement img {
+    margin-right: 15px; /* Space between image and text */
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+    width: 100px;
+    height: 100px;
+}
+
+.achievement p {
+    color: #A9BCD0;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.achievement strong {
+    color: #58A4B0;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.achievement:hover {
+    transform: scale(1.05);
+}
+
+.achievement img:hover {
+    transform: scale(1.1);
+}
+
+
+
 .fade-in-from-below {
     opacity: 0;
     transform: translateY(20px);
