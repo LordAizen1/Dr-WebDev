@@ -227,7 +227,7 @@ main {
 
 .feedback-title {
     font-size: 30px;
-    text-align: left;
+    text-align: center;
     font-weight: bold;
     color: #A9BCD0;
     margin-bottom: 5px;
@@ -379,6 +379,14 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+
+.responsive-image {
+    max-width: 100%; /* Ensures the image doesn’t exceed the container width */
+    height: auto;    /* Maintains the aspect ratio */
+    display: block;  /* Avoids extra spacing below the image */
+    margin: 0 auto;  /* Centers the image horizontally */
+}
+
 
 nav:hover,
 .nav-header:hover,
