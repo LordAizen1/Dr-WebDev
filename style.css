@@ -313,7 +313,7 @@ footer {
 
 .achievements p {
     color: #A9BCD0;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 1.6;
     margin-bottom: 20px;
 }
@@ -392,16 +392,17 @@ nav:hover,
 .nav-btn:hover,
 .centered:hover,
 .ad:hover,
-section:hover,
 article:hover,
 aside:hover,
 a:hover,
 .imp:hover,
-#me:hover,
-.contact:hover {
+#me:hover {
     transform: scale(1.05);
 }
 
+.contact:hover{
+    transform: scale(1.5);
+}
 @keyframes jiggle {
     0%,
     100% {
