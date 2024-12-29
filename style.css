@@ -235,7 +235,7 @@ main {
 
 .feedback-subtitle {
     font-size: 18px;
-    text-align: left;
+    text-align: center;
     color: #A9BCD0;
     margin-top: 5px;
     margin-bottom: 20px;
@@ -306,15 +306,14 @@ footer {
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.achievements h2 {
+.achievements p {
     color: #A9BCD0;
-    font-size: 28px;
     margin-bottom: 10px;
 }
 
 .achievements p {
     color: #A9BCD0;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.6;
     margin-bottom: 20px;
 }
